@@ -16,6 +16,7 @@ public class SpringbootTextApplication {
 
     @RequestMapping("/get")
     String test() {
+        System.out.println("sss");
         return "hello,world";
     }
 }
