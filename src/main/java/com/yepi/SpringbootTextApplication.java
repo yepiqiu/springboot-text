@@ -25,7 +25,6 @@ public class SpringbootTextApplication {
 
         User user = new User("邱", 12, "男");
         String s = mapper.writeValueAsString(user);
-
         return s;
 
     }
